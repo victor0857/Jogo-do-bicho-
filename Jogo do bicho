@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Jogo do Bicho</title>
+</head>
+<body>
+  <h1>Jogo do Bicho</h1>
+
+  <section id="resultados">
+    <h2>Resultados</h2>
+    <p>Os resultados do último sorteio são:</p>
+    <ul>
+      <li>Avestruz: <script>var numeros = sortearNumeros(); document.write(numeros[0]);</script></li>
+      <li>Burro: <script>var numeros = sortearNumeros(); document.write(numeros[1]);</script></li>
+      <li>Cachorro: <script>var numeros = sortearNumeros(); document.write(numeros[2]);</script></li>
+    </ul>
+  </section>
+
+  <section id="apostas">
+    <h2>Apostas</h2>
+    <p>Você pode fazer apostas simples, combinadas ou especiais.</p>
+
+    <p>Para fazer uma aposta simples, selecione um número da tabela abaixo.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Bicho</th>
+          <th>Números</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Avestruz</td>
+          <td>01, 02, 03, 04</td>
+        </tr>
+        <tr>
+          <td>Burro</td>
+          <td>11, 12, 13, 14</td>
+        </tr>
+        <tr>
+          <td>Cachorro</td>
+          <td>21, 22, 23, 24</td>
+        </tr>
+        <tr>
+          <td>Cobra</td>
+          <td>31, 32, 33, 34</td>
+        </tr>
+        <tr>
+          <td>Coelho</td>
+          <td>41, 42, 43, 44</td>
+        </tr>
+        <tr>
+          <td>Elefante</td>
+          <td>51, 52, 53, 54</td>
+        </tr>
+        <tr>
+          <td>Galo</td>
+          <td>61, 62, 63, 64</td>
+        </tr>
+        <tr>
+          <td>Gato</td>
+          <td>71, 72, 73, 74</td>
+        </tr>
+        <tr>
+          <td>Jacaré</td>
+          <td>81, 82, 83, 84</td>
+        </tr>
+        <tr>
+          <td>Leão</td>
+          <td>91, 92, 93, 94</td>
+        </tr>
+        <tr>
+          <td>Macaco</td>
+          <td>05, 06, 07, 08</td>
+        </tr>
+        <tr>
+          <td>Porco</td>
+          <td>15, 16, 17, 18</td>
+        </tr>
+        <tr>
+          <td>Rato</td>
+          <td>25, 26, 27, 28</td>
+        </tr>
+        <tr>
+          <td>Touro</td>
+          <td>35, 36, 37, 38</td>
+        </tr>
+        <tr>
+          <td>Tigre</td>
+          <td>45, 46, 47, 48</td>
+        </tr>
+        <tr>
+          <td>Urso</td>
+          <td>55, 56, 57, 58</td
